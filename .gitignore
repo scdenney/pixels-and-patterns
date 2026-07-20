@@ -1,0 +1,18 @@
+# macOS / R / Python cruft
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+__pycache__/
+*.pyc
+.venv/
+
+# Never publish raw survey exports or PII. Only de-identified data under
+# posts/*/data/microdata/ and aggregates under posts/*/data/derived/ are tracked.
+**/data/raw/
+**/data/*_raw*
+**/full_raw_archive/
+
+# Heavy model fit objects (re-creatable from the shipped code + data)
+*.rds

@@ -1,0 +1,4 @@
+Country,n,AMCE,AMCE_se,weight,w_lo,w_hi,prefer,reject,moderate,mod_lo,mod_hi,strong,strong_lo,strong_hi
+South Korea,2000,0.082,0.008,0.69,0.56,0.83,81,19,59,53,68,34,20,43
+Germany,2079,0.07,0.006,0.48,0.4,0.56,77,23,48,42,53,21,11,28
+Taiwan,2050,0.042,0.008,0.43,0.3,0.57,79,21,44,19,55,15,0,30
